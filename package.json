@@ -1,0 +1,20 @@
+{
+  "name": "pxserver",
+  "version": "1.0.0",
+  "description": "Meu Servidor para projetos futuros :D",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "sucrase": "^3.24.0"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/server.js"
+  }
+}

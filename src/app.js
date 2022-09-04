@@ -1,6 +1,6 @@
 import express, { Router } from "express";
 import cors from "cors";
-import routes from './routes';
+import routes from "./routes";
 import "./database"; 
 
 
@@ -20,7 +20,7 @@ class App {
     routes() {
         this.server.use(routes);
     }
-}
+} 7 
 
 
 export default new App().server;
